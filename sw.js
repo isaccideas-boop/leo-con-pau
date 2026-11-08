@@ -3,7 +3,7 @@
    Guarda la app para que funcione sin internet después de la
    primera visita. Los audios se guardan a medida que se usan.
    ============================================================ */
-const CACHE = "leo-con-pau-v7";
+const CACHE = "leo-con-pau-v8";
 const SHELL = [
   "./",
   "./index.html",
@@ -25,10 +25,22 @@ const SHELL = [
 
 self.addEventListener("install", (event) => {
   event.waitUntil(
-    caches
-      .open(CACHE)
-      .then((cache) => cache.addAll(SHELL))
-      .then(() => self.skipWaiting())
+    (async () => {
+      const cache = await caches.open(CACHE);
+      /* cache: "reload" evita que GitHub Pages entregue una copia vieja
+         desde la caché HTTP justo después de publicar. */
+      await Promise.all(
+        SHELL.map(async (url) => {
+          try {
+            const response = await fetch(url, { cache: "reload" });
+            if (response.ok) await cache.put(url, response);
+          } catch {
+            /* si un archivo falla, la app sigue con el resto */
+          }
+        })
+      );
+      await self.skipWaiting();
+    })()
   );
 });
 
