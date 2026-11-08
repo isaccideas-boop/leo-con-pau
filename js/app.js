@@ -13,6 +13,7 @@
 
   const STORAGE_KEY = "leo-con-pau-v1";
   const PARENT_KEY = "leo-con-pau-parent";
+  const AUDIO_PACK_KEY = "leo-con-pau-audio-pack";
   const DAILY_GOAL = 5;
   const MAX_NAME = 12;
   const MASTERY_TARGET = 3;
@@ -109,6 +110,8 @@
   let modalCloseHook = null;
   let modalKeyHandler = null;
   let parentUnlocked = readParentUnlock();
+  let audioPackManifest = null;
+  let audioPackRunning = false;
 
   /* Utilidades --------------------------------------------------- */
   const ESCAPES = { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" };
@@ -3032,6 +3035,115 @@
     });
   }
 
+  /* Paquete completo de audio para jugar sin internet ------------ */
+  async function loadAudioManifest() {
+    if (audioPackManifest) return audioPackManifest;
+    const response = await fetch("assets/audio/manifest.json", { cache: "no-cache" });
+    if (!response.ok) throw new Error("No se pudo leer el manifiesto de audio");
+    audioPackManifest = await response.json();
+    return audioPackManifest;
+  }
+
+  async function countCachedAudio() {
+    if (!("caches" in window)) return 0;
+    const names = (await caches.keys()).filter((name) =>
+      name.startsWith("leo-con-pau-")
+    );
+    const urls = new Set();
+    for (const name of names) {
+      const cache = await caches.open(name);
+      for (const request of await cache.keys()) {
+        const clean = request.url.split("?")[0];
+        if (clean.endsWith(".mp3")) urls.add(clean);
+      }
+    }
+    return urls.size;
+  }
+
+  function audioPackLabel(count, total) {
+    if (count >= total) {
+      return `Listo: los ${total} sonidos están guardados en este dispositivo.`;
+    }
+    if (count === 0) {
+      return `Todavía no hay sonidos guardados. Son ${total} y ocupan unos 6 MB.`;
+    }
+    return `${count} de ${total} sonidos guardados. Descarga el resto para jugar sin internet.`;
+  }
+
+  async function refreshAudioPackNote() {
+    const note = document.getElementById("audioPackNote");
+    if (!note) return;
+    try {
+      const manifest = await loadAudioManifest();
+      const count = await countCachedAudio();
+      note.textContent = audioPackLabel(count, manifest.clips.length);
+    } catch {
+      note.textContent = "No se pudo comprobar el paquete de sonidos.";
+    }
+  }
+
+  async function downloadAudioPack() {
+    if (audioPackRunning) return;
+    const button = document.getElementById("downloadAudio");
+    const note = document.getElementById("audioPackNote");
+    if (!button || !note) return;
+
+    audioPackRunning = true;
+    button.disabled = true;
+    button.textContent = "⏳ Descargando…";
+
+    try {
+      if (!("serviceWorker" in navigator) || !navigator.serviceWorker.controller) {
+        note.textContent =
+          "Abre la app una vez más y vuelve a intentarlo para activar el modo sin conexión.";
+        return;
+      }
+
+      const manifest = await loadAudioManifest();
+      const queue = manifest.clips.map((clip) => `assets/audio/${clip.id}.mp3`);
+      const total = queue.length;
+      let done = 0;
+      let failed = 0;
+
+      async function worker() {
+        while (queue.length) {
+          const url = queue.shift();
+          try {
+            const response = await fetch(url, { cache: "reload" });
+            if (!response.ok) throw new Error(String(response.status));
+            await response.arrayBuffer();
+          } catch {
+            failed += 1;
+          }
+          done += 1;
+          if (done % 4 === 0 || done === total) {
+            note.textContent = `Descargando sonidos… ${done} de ${total}`;
+          }
+        }
+      }
+
+      await Promise.all([worker(), worker(), worker(), worker()]);
+      const count = await countCachedAudio();
+
+      if (failed) {
+        note.textContent = `Se guardaron ${count} de ${total}. No se pudieron descargar ${failed}; revisa la conexión y vuelve a intentarlo.`;
+      } else {
+        localStorage.setItem(
+          AUDIO_PACK_KEY,
+          JSON.stringify({ count, date: new Date().toISOString() })
+        );
+        note.textContent = audioPackLabel(count, total);
+      }
+    } catch {
+      note.textContent =
+        "No se pudo completar la descarga. Revisa la conexión e inténtalo de nuevo.";
+    } finally {
+      audioPackRunning = false;
+      button.disabled = false;
+      button.textContent = "⬇️ Descargar todos los sonidos";
+    }
+  }
+
   function renderSettings() {
     const voices = AE.getVoices();
     const voiceMode = state.settings.voice === "device" ? "device" : "app";
@@ -3151,6 +3263,15 @@
           <div class="setting-actions">
             <button class="btn btn--soft" id="testVoice">🔊 Probar voz</button>
           </div>
+        </div>
+
+        <div class="settings-card">
+          <h2>Jugar sin internet</h2>
+          <p>Guarda los 355 sonidos en este dispositivo. Así la app funciona completa sin conexión, por ejemplo en el coche.</p>
+          <div class="setting-actions">
+            <button class="btn btn--soft" id="downloadAudio">⬇️ Descargar todos los sonidos</button>
+          </div>
+          <p class="backup-note" id="audioPackNote" role="status">Comprobando sonidos…</p>
         </div>
 
         <div class="settings-card">
@@ -3308,6 +3429,13 @@
       AE.sfx("click");
       confirmReset();
     });
+
+    document.getElementById("downloadAudio").addEventListener("click", () => {
+      AE.sfx("click");
+      downloadAudioPack();
+    });
+
+    refreshAudioPackNote();
 
     if (!voices.length) {
       window.setTimeout(() => {

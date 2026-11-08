@@ -7,6 +7,24 @@ en voz alta, comprensión de frases, vocales, estrellas y premios.
 Todo funciona sin internet y sin instalar nada: el audio de las sílabas, palabras y
 frases ya viene incluido en `assets/audio`.
 
+## Abrir en el iPad
+
+La app está publicada en GitHub Pages:
+
+```text
+https://isaccideas-boop.github.io/leo-con-pau/
+```
+
+1. Abre esa dirección en **Safari** desde el iPad.
+2. Toca **Compartir** → **Añadir a pantalla de inicio**.
+3. Ábrela una vez con internet para que se guarde.
+4. Entra a **Ajustes para papás y mamás** → **Jugar sin internet** →
+   **Descargar todos los sonidos**. Así quedan los 355 audios guardados y la app
+   funciona completa sin conexión.
+
+La primera visita y la descarga de sonidos necesitan internet. Después puedes
+abrirla desde el icono aunque el iPad esté sin red.
+
 ## Cómo abrirla
 
 ### Opción rápida en macOS
@@ -202,6 +220,27 @@ La app usa la voz del dispositivo automáticamente si falta un clip, y también 
 usarse esa voz de forma permanente desde los ajustes. Las preguntas de comprensión,
 sus opciones y los textos de las pantallas nuevas también tienen audio incluido.
 
+## Publicar cambios
+
+El repositorio es `isaccideas-boop/leo-con-pau` y GitHub Pages publica la rama
+`main` automáticamente.
+
+Para subir cambios sin pensarlo:
+
+```bash
+./scripts/publish.sh "Descripción del cambio"
+```
+
+O haz doble clic en `publicar.command`. El script:
+
+1. Sube la versión del service worker para que los iPad reciban lo nuevo.
+2. Hace el commit.
+3. Sube los cambios a GitHub.
+4. GitHub Pages tarda alrededor de un minuto en publicarlos.
+
+No hace falta tocar `main` a mano. La carpeta `certs/` está excluida en
+`.gitignore` y nunca se publica.
+
 ## Estructura
 
 ```text
@@ -215,6 +254,9 @@ js/audio.js                Reproductor de clips, voz del dispositivo y efectos
 js/fx.js                   Confeti, destellos y avisos de premio
 js/audio-id.js             Nombre estable de cada archivo de audio
 scripts/generate-audio.mjs Generador de la voz incluida
+scripts/publish.sh         Publica los cambios en GitHub Pages
+scripts/serve-https.mjs    Servidor HTTPS local opcional para el iPad
+publicar.command           Atajo de doble clic para publicar
 assets/audio/              355 audios MP3 + manifest.json
 assets/fonts/              Fredoka y Nunito, incluidas localmente
 assets/icons/              Iconos SVG y PNG para la app instalable

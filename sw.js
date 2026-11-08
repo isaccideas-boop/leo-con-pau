@@ -3,7 +3,7 @@
    Guarda la app para que funcione sin internet después de la
    primera visita. Los audios se guardan a medida que se usan.
    ============================================================ */
-const CACHE = "leo-con-pau-v6";
+const CACHE = "leo-con-pau-v7";
 const SHELL = [
   "./",
   "./index.html",
@@ -14,6 +14,7 @@ const SHELL = [
   "./js/fx.js",
   "./js/app.js",
   "./manifest.webmanifest",
+  "./assets/audio/manifest.json",
   "./assets/fonts/fredoka-latin.woff2",
   "./assets/fonts/nunito-latin.woff2",
   "./assets/icons/icon-180.png",
