@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Leo con Pau">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#9b7bff"/>
+      <stop offset="1" stop-color="#5f3dc4"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="url(#bg)"/>
+  <circle cx="256" cy="250" r="168" fill="#fff" opacity=".08"/>
+  <path d="M156 176 L164 104 L220 156 Z" fill="#ffd43b"/>
+  <path d="M356 176 L348 104 L292 156 Z" fill="#ffd43b"/>
+  <ellipse cx="256" cy="286" rx="132" ry="148" fill="#fff7de"/>
+  <ellipse cx="256" cy="326" rx="82" ry="92" fill="#ffe2a3"/>
+  <ellipse cx="176" cy="292" rx="30" ry="70" fill="#8c6bff" transform="rotate(12 176 292)"/>
+  <ellipse cx="336" cy="292" rx="30" ry="70" fill="#8c6bff" transform="rotate(-12 336 292)"/>
+  <circle cx="214" cy="246" r="52" fill="#fff"/>
+  <circle cx="298" cy="246" r="52" fill="#fff"/>
+  <circle cx="220" cy="250" r="24" fill="#31264a"/>
+  <circle cx="292" cy="250" r="24" fill="#31264a"/>
+  <circle cx="228" cy="242" r="7" fill="#fff"/>
+  <circle cx="300" cy="242" r="7" fill="#fff"/>
+  <path d="M256 272 L234 296 Q256 318 278 296 Z" fill="#ffb020"/>
+  <path d="M232 352 q24 16 48 0" stroke="#e0a800" stroke-width="8" fill="none" stroke-linecap="round" opacity=".4"/>
+  <path d="M220 416 l-12 24 M292 416 l12 24" stroke="#ffb020" stroke-width="14" stroke-linecap="round"/>
+  <path d="M406 112 l7 19 19 7 -19 7 -7 19 -7 -19 -19 -7 19 -7 Z" fill="#ffd43b"/>
+</svg>

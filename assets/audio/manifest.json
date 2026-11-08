@@ -1,0 +1,2157 @@
+{
+  "engine": "edge",
+  "voice": "es-MX-DaliaNeural",
+  "rates": {
+    "silaba": "-35%",
+    "palabra": "-18%",
+    "frase": "-14%"
+  },
+  "pauses": {
+    "silaba": {
+      "leadMs": 160,
+      "tailMs": 0.6
+    },
+    "palabra": {
+      "leadMs": 130,
+      "tailMs": 0.3
+    },
+    "frase": {
+      "leadMs": 120,
+      "tailMs": 0.3
+    }
+  },
+  "generatedAt": "2026-11-05T05:39:56.904Z",
+  "count": 355,
+  "clips": [
+    {
+      "text": "¡Excelente!",
+      "id": "excelente-1dqotvs",
+      "kind": "frase",
+      "rate": "-14%"
+    },
+    {
+      "text": "¡Ganaste una estrella!",
+      "id": "ganaste-una-estrella-z1sef4",
+      "kind": "frase",
+      "rate": "-14%"
+    },
+    {
+      "text": "¡Genial!",
+      "id": "genial-ddrtzh",
+      "kind": "frase",
+      "rate": "-14%"
+    },
+    {
+      "text": "¡Hola! Soy el Búho Sabio.",
+      "id": "hola-soy-el-buho-sabio-1tn5jdw",
+      "kind": "frase",
+      "rate": "-14%"
+    },
+    {
+      "text": "¡Lo lograste!",
+      "id": "lo-lograste-3j6byr",
+      "kind": "frase",
+      "rate": "-14%"
+    },
+    {
+      "text": "¡Meta de hoy cumplida!",
+      "id": "meta-de-hoy-cumplida-j1owwc",
+      "kind": "frase",
+      "rate": "-14%"
+    },
+    {
+      "text": "¡Muy bien hecho!",
+      "id": "muy-bien-hecho-1j0pl3h",
+      "kind": "frase",
+      "rate": "-14%"
+    },
+    {
+      "text": "¡Muy bien!",
+      "id": "muy-bien-gw316s",
+      "kind": "frase",
+      "rate": "-14%"
+    },
+    {
+      "text": "¡Nuevo premio!",
+      "id": "nuevo-premio-1riipf2",
+      "kind": "frase",
+      "rate": "-14%"
+    },
+    {
+      "text": "¡Qué bien lees!",
+      "id": "que-bien-lees-1ir745z",
+      "kind": "frase",
+      "rate": "-14%"
+    },
+    {
+      "text": "¡Sesión completa!",
+      "id": "sesion-completa-tocl6h",
+      "kind": "frase",
+      "rate": "-14%"
+    },
+    {
+      "text": "¡Sigue así!",
+      "id": "sigue-asi-9el193",
+      "kind": "frase",
+      "rate": "-14%"
+    },
+    {
+      "text": "¡Tú puedes!",
+      "id": "tu-puedes-44yrg9",
+      "kind": "frase",
+      "rate": "-14%"
+    },
+    {
+      "text": "¿Cómo es la casa?",
+      "id": "como-es-la-casa-kkjtjw",
+      "kind": "frase",
+      "rate": "-14%"
+    },
+    {
+      "text": "¿Cómo es la casa? ¿Bonita, grande o sucia?",
+      "id": "como-es-la-casa-bonita-grande-o-sucia-1uktoxi",
+      "kind": "frase",
+      "rate": "-14%"
+    },
+    {
+      "text": "¿Cuál será?",
+      "id": "cual-sera-y91qgr",
+      "kind": "frase",
+      "rate": "-14%"
+    },
+    {
+      "text": "¿Dónde nada el pato?",
+      "id": "donde-nada-el-pato-80wqtw",
+      "kind": "frase",
+      "rate": "-14%"
+    },
+    {
+      "text": "¿Dónde nada el pato? ¿En el agua, en la arena o en la nieve?",
+      "id": "donde-nada-el-pato-en-el-agua-en-la-arena--1iwjjkf",
+      "kind": "frase",
+      "rate": "-14%"
+    },
+    {
+      "text": "¿Qué brilla?",
+      "id": "que-brilla-1v4h80g",
+      "kind": "frase",
+      "rate": "-14%"
+    },
+    {
+      "text": "¿Qué brilla? ¿El sol, la luna o la estrella?",
+      "id": "que-brilla-el-sol-la-luna-o-la-estrella-15f5zrc",
+      "kind": "frase",
+      "rate": "-14%"
+    },
+    {
+      "text": "¿Qué entendiste?",
+      "id": "que-entendiste-4jlfv7",
+      "kind": "frase",
+      "rate": "-14%"
+    },
+    {
+      "text": "¿Qué leo?",
+      "id": "que-leo-8ugyz2",
+      "kind": "frase",
+      "rate": "-14%"
+    },
+    {
+      "text": "¿Qué leo? ¿Un cuento, una sopa o un globo?",
+      "id": "que-leo-un-cuento-una-sopa-o-un-globo-ly7z3p",
+      "kind": "frase",
+      "rate": "-14%"
+    },
+    {
+      "text": "¿Qué sale de noche?",
+      "id": "que-sale-de-noche-10aingd",
+      "kind": "frase",
+      "rate": "-14%"
+    },
+    {
+      "text": "¿Qué sale de noche? ¿La luna, el sol o la casa?",
+      "id": "que-sale-de-noche-la-luna-el-sol-o-la-casa-pwi16p",
+      "kind": "frase",
+      "rate": "-14%"
+    },
+    {
+      "text": "¿Qué toma el gato?",
+      "id": "que-toma-el-gato-nw5tjf",
+      "kind": "frase",
+      "rate": "-14%"
+    },
+    {
+      "text": "¿Qué toma el gato? ¿Sopa, jugo o pera?",
+      "id": "que-toma-el-gato-sopa-jugo-o-pera-1pnnf78",
+      "kind": "frase",
+      "rate": "-14%"
+    },
+    {
+      "text": "¿Qué veo?",
+      "id": "que-veo-8tzy38",
+      "kind": "frase",
+      "rate": "-14%"
+    },
+    {
+      "text": "¿Qué veo? ¿Una estrella, la luna o el sol?",
+      "id": "que-veo-una-estrella-la-luna-o-el-sol-wq2x6j",
+      "kind": "frase",
+      "rate": "-14%"
+    },
+    {
+      "text": "¿Quién duerme?",
+      "id": "quien-duerme-1g98n7l",
+      "kind": "frase",
+      "rate": "-14%"
+    },
+    {
+      "text": "¿Quién duerme? ¿El osito, el gato o el pato?",
+      "id": "quien-duerme-el-osito-el-gato-o-el-pato-1niu3o2",
+      "kind": "frase",
+      "rate": "-14%"
+    },
+    {
+      "text": "¿Quién me ama?",
+      "id": "quien-me-ama-1wqiz8q",
+      "kind": "frase",
+      "rate": "-14%"
+    },
+    {
+      "text": "¿Quién me ama? ¿La mamá, el gato o la luna?",
+      "id": "quien-me-ama-la-mama-el-gato-o-la-luna-cnld63",
+      "kind": "frase",
+      "rate": "-14%"
+    },
+    {
+      "text": "¿Quién vuela?",
+      "id": "quien-vuela-r8ectg",
+      "kind": "frase",
+      "rate": "-14%"
+    },
+    {
+      "text": "¿Quién vuela? ¿La mariposa, la tortuga o el pez?",
+      "id": "quien-vuela-la-mariposa-la-tortuga-o-el-pe-yf7bhx",
+      "kind": "frase",
+      "rate": "-14%"
+    },
+    {
+      "text": "a",
+      "id": "a-3t1g",
+      "kind": "silaba",
+      "rate": "-35%"
+    },
+    {
+      "text": "abeja",
+      "id": "abeja-2t1u4o",
+      "kind": "palabra",
+      "rate": "-18%"
+    },
+    {
+      "text": "agua",
+      "id": "agua-yivk5z",
+      "kind": "palabra",
+      "rate": "-18%"
+    },
+    {
+      "text": "Ahora tú.",
+      "id": "ahora-tu-reiwa8",
+      "kind": "frase",
+      "rate": "-14%"
+    },
+    {
+      "text": "Ajustes para papás y mamás.",
+      "id": "ajustes-para-papas-y-mamas-ro8r8f",
+      "kind": "frase",
+      "rate": "-14%"
+    },
+    {
+      "text": "ama",
+      "id": "ama-375fzc",
+      "kind": "palabra",
+      "rate": "-18%"
+    },
+    {
+      "text": "Aquí están tus estrellas y tus premios.",
+      "id": "aqui-estan-tus-estrellas-y-tus-premios-170a54f",
+      "kind": "frase",
+      "rate": "-14%"
+    },
+    {
+      "text": "Aquí ves lo que ya sabes y lo que sigue.",
+      "id": "aqui-ves-lo-que-ya-sabes-y-lo-que-sigue-64j095",
+      "kind": "frase",
+      "rate": "-14%"
+    },
+    {
+      "text": "ár",
+      "id": "ar-3hj1y",
+      "kind": "silaba",
+      "rate": "-35%"
+    },
+    {
+      "text": "árbol",
+      "id": "arbol-b0rhz",
+      "kind": "palabra",
+      "rate": "-18%"
+    },
+    {
+      "text": "arena",
+      "id": "arena-2te5wc",
+      "kind": "palabra",
+      "rate": "-18%"
+    },
+    {
+      "text": "Arma la palabra.",
+      "id": "arma-la-palabra-jmn4z8",
+      "kind": "frase",
+      "rate": "-14%"
+    },
+    {
+      "text": "avión",
+      "id": "avion-2tbfmu",
+      "kind": "palabra",
+      "rate": "-18%"
+    },
+    {
+      "text": "ba",
+      "id": "ba-3hmfa",
+      "kind": "silaba",
+      "rate": "-35%"
+    },
+    {
+      "text": "ballena",
+      "id": "ballena-12ypr8s",
+      "kind": "palabra",
+      "rate": "-18%"
+    },
+    {
+      "text": "banana",
+      "id": "banana-our4qu",
+      "kind": "palabra",
+      "rate": "-18%"
+    },
+    {
+      "text": "be",
+      "id": "be-3hmf6",
+      "kind": "silaba",
+      "rate": "-35%"
+    },
+    {
+      "text": "bi",
+      "id": "bi-3hmfi",
+      "kind": "silaba",
+      "rate": "-35%"
+    },
+    {
+      "text": "bicicleta",
+      "id": "bicicleta-1gmshej",
+      "kind": "palabra",
+      "rate": "-18%"
+    },
+    {
+      "text": "bo",
+      "id": "bo-3hmfc",
+      "kind": "silaba",
+      "rate": "-35%"
+    },
+    {
+      "text": "boca",
+      "id": "boca-yizb6y",
+      "kind": "palabra",
+      "rate": "-18%"
+    },
+    {
+      "text": "bol",
+      "id": "bol-375k10",
+      "kind": "silaba",
+      "rate": "-35%"
+    },
+    {
+      "text": "bonita",
+      "id": "bonita-otceca",
+      "kind": "palabra",
+      "rate": "-18%"
+    },
+    {
+      "text": "bor",
+      "id": "bor-375k1m",
+      "kind": "silaba",
+      "rate": "-35%"
+    },
+    {
+      "text": "bos",
+      "id": "bos-375k1n",
+      "kind": "silaba",
+      "rate": "-35%"
+    },
+    {
+      "text": "bosque",
+      "id": "bosque-otwjq2",
+      "kind": "palabra",
+      "rate": "-18%"
+    },
+    {
+      "text": "bot",
+      "id": "bot-375k1o",
+      "kind": "silaba",
+      "rate": "-35%"
+    },
+    {
+      "text": "brilla",
+      "id": "brilla-p1ggvx",
+      "kind": "palabra",
+      "rate": "-18%"
+    },
+    {
+      "text": "bu",
+      "id": "bu-3hmfm",
+      "kind": "silaba",
+      "rate": "-35%"
+    },
+    {
+      "text": "ca",
+      "id": "ca-3hmg7",
+      "kind": "silaba",
+      "rate": "-35%"
+    },
+    {
+      "text": "caballo",
+      "id": "caballo-1lno097",
+      "kind": "palabra",
+      "rate": "-18%"
+    },
+    {
+      "text": "cama",
+      "id": "cama-yj013f",
+      "kind": "palabra",
+      "rate": "-18%"
+    },
+    {
+      "text": "cara",
+      "id": "cara-yj01f8",
+      "kind": "palabra",
+      "rate": "-18%"
+    },
+    {
+      "text": "caracol",
+      "id": "caracol-1lyyq44",
+      "kind": "palabra",
+      "rate": "-18%"
+    },
+    {
+      "text": "casa",
+      "id": "casa-yj01g5",
+      "kind": "palabra",
+      "rate": "-18%"
+    },
+    {
+      "text": "Casi, prueba otra vez.",
+      "id": "casi-prueba-otra-vez-1o8o0vj",
+      "kind": "frase",
+      "rate": "-14%"
+    },
+    {
+      "text": "ce",
+      "id": "ce-3hmg3",
+      "kind": "silaba",
+      "rate": "-35%"
+    },
+    {
+      "text": "cha",
+      "id": "cha-375l1r",
+      "kind": "silaba",
+      "rate": "-35%"
+    },
+    {
+      "text": "che",
+      "id": "che-375l1n",
+      "kind": "silaba",
+      "rate": "-35%"
+    },
+    {
+      "text": "chi",
+      "id": "chi-375l1j",
+      "kind": "silaba",
+      "rate": "-35%"
+    },
+    {
+      "text": "cho",
+      "id": "cho-375l1d",
+      "kind": "silaba",
+      "rate": "-35%"
+    },
+    {
+      "text": "chu",
+      "id": "chu-375l23",
+      "kind": "silaba",
+      "rate": "-35%"
+    },
+    {
+      "text": "ci",
+      "id": "ci-3hmgf",
+      "kind": "silaba",
+      "rate": "-35%"
+    },
+    {
+      "text": "cie",
+      "id": "cie-375l0q",
+      "kind": "silaba",
+      "rate": "-35%"
+    },
+    {
+      "text": "cielo",
+      "id": "cielo-2xe3hl",
+      "kind": "palabra",
+      "rate": "-18%"
+    },
+    {
+      "text": "cle",
+      "id": "cle-375ky7",
+      "kind": "silaba",
+      "rate": "-35%"
+    },
+    {
+      "text": "co",
+      "id": "co-3hmg9",
+      "kind": "silaba",
+      "rate": "-35%"
+    },
+    {
+      "text": "coche",
+      "id": "coche-2xcoyv",
+      "kind": "palabra",
+      "rate": "-18%"
+    },
+    {
+      "text": "codo",
+      "id": "codo-yj0676",
+      "kind": "palabra",
+      "rate": "-18%"
+    },
+    {
+      "text": "col",
+      "id": "col-375kyt",
+      "kind": "silaba",
+      "rate": "-35%"
+    },
+    {
+      "text": "cometa",
+      "id": "cometa-pjbaxg",
+      "kind": "palabra",
+      "rate": "-18%"
+    },
+    {
+      "text": "conejo",
+      "id": "conejo-pjeyqv",
+      "kind": "palabra",
+      "rate": "-18%"
+    },
+    {
+      "text": "Construye palabras",
+      "id": "construye-palabras-xuqr51",
+      "kind": "frase",
+      "rate": "-14%"
+    },
+    {
+      "text": "cu",
+      "id": "cu-3hmgj",
+      "kind": "silaba",
+      "rate": "-35%"
+    },
+    {
+      "text": "cua",
+      "id": "cua-375l4i",
+      "kind": "silaba",
+      "rate": "-35%"
+    },
+    {
+      "text": "cuaderno",
+      "id": "cuaderno-ripf34",
+      "kind": "palabra",
+      "rate": "-18%"
+    },
+    {
+      "text": "cuento",
+      "id": "cuento-pnt72b",
+      "kind": "palabra",
+      "rate": "-18%"
+    },
+    {
+      "text": "da",
+      "id": "da-3hm68",
+      "kind": "silaba",
+      "rate": "-35%"
+    },
+    {
+      "text": "dados",
+      "id": "dados-2pmm8o",
+      "kind": "palabra",
+      "rate": "-18%"
+    },
+    {
+      "text": "de",
+      "id": "de-3hm6c",
+      "kind": "silaba",
+      "rate": "-35%"
+    },
+    {
+      "text": "dedo",
+      "id": "dedo-yirtvz",
+      "kind": "palabra",
+      "rate": "-18%"
+    },
+    {
+      "text": "der",
+      "id": "der-375bw6",
+      "kind": "silaba",
+      "rate": "-35%"
+    },
+    {
+      "text": "di",
+      "id": "di-3hm6g",
+      "kind": "silaba",
+      "rate": "-35%"
+    },
+    {
+      "text": "dí",
+      "id": "di-3hm30",
+      "kind": "silaba",
+      "rate": "-35%"
+    },
+    {
+      "text": "dien",
+      "id": "dien-yirxlv",
+      "kind": "silaba",
+      "rate": "-35%"
+    },
+    {
+      "text": "diente",
+      "id": "diente-imel4i",
+      "kind": "palabra",
+      "rate": "-18%"
+    },
+    {
+      "text": "dín",
+      "id": "din-3758te",
+      "kind": "silaba",
+      "rate": "-35%"
+    },
+    {
+      "text": "do",
+      "id": "do-3hm6m",
+      "kind": "silaba",
+      "rate": "-35%"
+    },
+    {
+      "text": "dos",
+      "id": "dos-375c1p",
+      "kind": "silaba",
+      "rate": "-35%"
+    },
+    {
+      "text": "du",
+      "id": "du-3hm6s",
+      "kind": "silaba",
+      "rate": "-35%"
+    },
+    {
+      "text": "duerme",
+      "id": "duerme-iupcaz",
+      "kind": "palabra",
+      "rate": "-18%"
+    },
+    {
+      "text": "e",
+      "id": "e-3t1c",
+      "kind": "silaba",
+      "rate": "-35%"
+    },
+    {
+      "text": "efe",
+      "id": "efe-375clf",
+      "kind": "frase",
+      "rate": "-14%"
+    },
+    {
+      "text": "el",
+      "id": "el-3hm7g",
+      "kind": "palabra",
+      "rate": "-18%"
+    },
+    {
+      "text": "El",
+      "id": "el-3hmz0",
+      "kind": "palabra",
+      "rate": "-18%"
+    },
+    {
+      "text": "El gato toma sopa.",
+      "id": "el-gato-toma-sopa-gi2odh",
+      "kind": "frase",
+      "rate": "-14%"
+    },
+    {
+      "text": "El pato nada en el agua.",
+      "id": "el-pato-nada-en-el-agua-1qgvsdu",
+      "kind": "frase",
+      "rate": "-14%"
+    },
+    {
+      "text": "El sol brilla.",
+      "id": "el-sol-brilla-14b8xai",
+      "kind": "frase",
+      "rate": "-14%"
+    },
+    {
+      "text": "ele",
+      "id": "ele-375cuh",
+      "kind": "frase",
+      "rate": "-14%"
+    },
+    {
+      "text": "elefante",
+      "id": "elefante-18fvicx",
+      "kind": "palabra",
+      "rate": "-18%"
+    },
+    {
+      "text": "elle",
+      "id": "elle-yispph",
+      "kind": "frase",
+      "rate": "-14%"
+    },
+    {
+      "text": "eme",
+      "id": "eme-375ctk",
+      "kind": "frase",
+      "rate": "-14%"
+    },
+    {
+      "text": "en",
+      "id": "en-3hm7i",
+      "kind": "palabra",
+      "rate": "-18%"
+    },
+    {
+      "text": "ene",
+      "id": "ene-375csr",
+      "kind": "frase",
+      "rate": "-14%"
+    },
+    {
+      "text": "eñe",
+      "id": "ene-3759o4",
+      "kind": "frase",
+      "rate": "-14%"
+    },
+    {
+      "text": "erre",
+      "id": "erre-yisrfp",
+      "kind": "frase",
+      "rate": "-14%"
+    },
+    {
+      "text": "es",
+      "id": "es-3hm7n",
+      "kind": "silaba",
+      "rate": "-35%"
+    },
+    {
+      "text": "Escucha la pregunta y elige la respuesta.",
+      "id": "escucha-la-pregunta-y-elige-la-respuesta-bojr6e",
+      "kind": "frase",
+      "rate": "-14%"
+    },
+    {
+      "text": "Escucha la vocal y tócala.",
+      "id": "escucha-la-vocal-y-tocala-1knk26i",
+      "kind": "frase",
+      "rate": "-14%"
+    },
+    {
+      "text": "Escucha otra vez.",
+      "id": "escucha-otra-vez-1mnwgw0",
+      "kind": "frase",
+      "rate": "-14%"
+    },
+    {
+      "text": "Escucha y elige",
+      "id": "escucha-y-elige-13ifmc",
+      "kind": "frase",
+      "rate": "-14%"
+    },
+    {
+      "text": "Escucha y toca la respuesta.",
+      "id": "escucha-y-toca-la-respuesta-dklo3y",
+      "kind": "frase",
+      "rate": "-14%"
+    },
+    {
+      "text": "ese",
+      "id": "ese-375d2u",
+      "kind": "frase",
+      "rate": "-14%"
+    },
+    {
+      "text": "estrella",
+      "id": "estrella-hwklsh",
+      "kind": "palabra",
+      "rate": "-18%"
+    },
+    {
+      "text": "fa",
+      "id": "fa-3hmbm",
+      "kind": "silaba",
+      "rate": "-35%"
+    },
+    {
+      "text": "fan",
+      "id": "fan-375gq4",
+      "kind": "silaba",
+      "rate": "-35%"
+    },
+    {
+      "text": "fe",
+      "id": "fe-3hmbq",
+      "kind": "silaba",
+      "rate": "-35%"
+    },
+    {
+      "text": "fi",
+      "id": "fi-3hmbu",
+      "kind": "silaba",
+      "rate": "-35%"
+    },
+    {
+      "text": "fo",
+      "id": "fo-3hmbw",
+      "kind": "silaba",
+      "rate": "-35%"
+    },
+    {
+      "text": "fre",
+      "id": "fre-375gyc",
+      "kind": "silaba",
+      "rate": "-35%"
+    },
+    {
+      "text": "fresa",
+      "id": "fresa-2tz7vq",
+      "kind": "palabra",
+      "rate": "-18%"
+    },
+    {
+      "text": "fu",
+      "id": "fu-3hmc6",
+      "kind": "silaba",
+      "rate": "-35%"
+    },
+    {
+      "text": "ga",
+      "id": "ga-3hmcj",
+      "kind": "silaba",
+      "rate": "-35%"
+    },
+    {
+      "text": "galleta",
+      "id": "galleta-17lhx9v",
+      "kind": "palabra",
+      "rate": "-18%"
+    },
+    {
+      "text": "gato",
+      "id": "gato-yiwyrc",
+      "kind": "palabra",
+      "rate": "-18%"
+    },
+    {
+      "text": "ge",
+      "id": "ge-3hmcn",
+      "kind": "frase",
+      "rate": "-14%"
+    },
+    {
+      "text": "glo",
+      "id": "glo-375hs1",
+      "kind": "silaba",
+      "rate": "-35%"
+    },
+    {
+      "text": "globo",
+      "id": "globo-2uo1l8",
+      "kind": "palabra",
+      "rate": "-18%"
+    },
+    {
+      "text": "go",
+      "id": "go-3hmct",
+      "kind": "silaba",
+      "rate": "-35%"
+    },
+    {
+      "text": "grande",
+      "id": "grande-n1zs2m",
+      "kind": "palabra",
+      "rate": "-18%"
+    },
+    {
+      "text": "gu",
+      "id": "gu-3hmd3",
+      "kind": "silaba",
+      "rate": "-35%"
+    },
+    {
+      "text": "gua",
+      "id": "gua-375hyu",
+      "kind": "silaba",
+      "rate": "-35%"
+    },
+    {
+      "text": "Guarda una copia de tu progreso.",
+      "id": "guarda-una-copia-de-tu-progreso-966hgg",
+      "kind": "frase",
+      "rate": "-14%"
+    },
+    {
+      "text": "gue",
+      "id": "gue-375hyq",
+      "kind": "silaba",
+      "rate": "-35%"
+    },
+    {
+      "text": "gui",
+      "id": "gui-375hz2",
+      "kind": "silaba",
+      "rate": "-35%"
+    },
+    {
+      "text": "guitarra",
+      "id": "guitarra-bx08iy",
+      "kind": "palabra",
+      "rate": "-18%"
+    },
+    {
+      "text": "ha",
+      "id": "ha-3hmh8",
+      "kind": "silaba",
+      "rate": "-35%"
+    },
+    {
+      "text": "hache",
+      "id": "hache-2y3nj6",
+      "kind": "frase",
+      "rate": "-14%"
+    },
+    {
+      "text": "he",
+      "id": "he-3hmh4",
+      "kind": "silaba",
+      "rate": "-35%"
+    },
+    {
+      "text": "helado",
+      "id": "helado-q584cu",
+      "kind": "palabra",
+      "rate": "-18%"
+    },
+    {
+      "text": "hi",
+      "id": "hi-3hmh0",
+      "kind": "silaba",
+      "rate": "-35%"
+    },
+    {
+      "text": "ho",
+      "id": "ho-3hmgy",
+      "kind": "silaba",
+      "rate": "-35%"
+    },
+    {
+      "text": "hoja",
+      "id": "hoja-yj0nyh",
+      "kind": "palabra",
+      "rate": "-18%"
+    },
+    {
+      "text": "Hola, soy el Búho Sabio. Vamos a leer juntos.",
+      "id": "hola-soy-el-buho-sabio-vamos-a-leer-juntos-xofzza",
+      "kind": "frase",
+      "rate": "-14%"
+    },
+    {
+      "text": "Hoy tenemos cinco pasos cortitos. Toca el paso que quieras hacer.",
+      "id": "hoy-tenemos-cinco-pasos-cortitos-toca-el-p-1c0e3dw",
+      "kind": "frase",
+      "rate": "-14%"
+    },
+    {
+      "text": "hu",
+      "id": "hu-3hmhk",
+      "kind": "silaba",
+      "rate": "-35%"
+    },
+    {
+      "text": "i",
+      "id": "i-3t1o",
+      "kind": "silaba",
+      "rate": "-35%"
+    },
+    {
+      "text": "Inténtalo otra vez.",
+      "id": "intentalo-otra-vez-ic5b8o",
+      "kind": "frase",
+      "rate": "-14%"
+    },
+    {
+      "text": "isla",
+      "id": "isla-yj25yq",
+      "kind": "palabra",
+      "rate": "-18%"
+    },
+    {
+      "text": "ja",
+      "id": "ja-3hmmm",
+      "kind": "silaba",
+      "rate": "-35%"
+    },
+    {
+      "text": "jar",
+      "id": "jar-375qt8",
+      "kind": "silaba",
+      "rate": "-35%"
+    },
+    {
+      "text": "jardín",
+      "id": "jardin-u1eupn",
+      "kind": "palabra",
+      "rate": "-18%"
+    },
+    {
+      "text": "je",
+      "id": "je-3hmmi",
+      "kind": "silaba",
+      "rate": "-35%"
+    },
+    {
+      "text": "ji",
+      "id": "ji-3hmme",
+      "kind": "silaba",
+      "rate": "-35%"
+    },
+    {
+      "text": "jirafa",
+      "id": "jirafa-tvrhhu",
+      "kind": "palabra",
+      "rate": "-18%"
+    },
+    {
+      "text": "jo",
+      "id": "jo-3hmm8",
+      "kind": "silaba",
+      "rate": "-35%"
+    },
+    {
+      "text": "jota",
+      "id": "jota-yj53yt",
+      "kind": "frase",
+      "rate": "-14%"
+    },
+    {
+      "text": "ju",
+      "id": "ju-3hmmy",
+      "kind": "silaba",
+      "rate": "-35%"
+    },
+    {
+      "text": "jugo",
+      "id": "jugo-yj5soi",
+      "kind": "palabra",
+      "rate": "-18%"
+    },
+    {
+      "text": "la",
+      "id": "la-3hmdk",
+      "kind": "silaba",
+      "rate": "-35%"
+    },
+    {
+      "text": "La",
+      "id": "la-3hnc8",
+      "kind": "palabra",
+      "rate": "-18%"
+    },
+    {
+      "text": "lá",
+      "id": "la-3hma0",
+      "kind": "silaba",
+      "rate": "-35%"
+    },
+    {
+      "text": "La casa es bonita.",
+      "id": "la-casa-es-bonita-3qjkn3",
+      "kind": "frase",
+      "rate": "-14%"
+    },
+    {
+      "text": "La luna sale de noche.",
+      "id": "la-luna-sale-de-noche-107qwo5",
+      "kind": "frase",
+      "rate": "-14%"
+    },
+    {
+      "text": "La mariposa vuela.",
+      "id": "la-mariposa-vuela-1djajnb",
+      "kind": "frase",
+      "rate": "-14%"
+    },
+    {
+      "text": "lám",
+      "id": "lam-375f8l",
+      "kind": "silaba",
+      "rate": "-35%"
+    },
+    {
+      "text": "lámpara",
+      "id": "lampara-1lyr8kn",
+      "kind": "palabra",
+      "rate": "-18%"
+    },
+    {
+      "text": "lápiz",
+      "id": "lapiz-2sjn7v",
+      "kind": "palabra",
+      "rate": "-18%"
+    },
+    {
+      "text": "Las vocales",
+      "id": "las-vocales-1dwzpa2",
+      "kind": "frase",
+      "rate": "-14%"
+    },
+    {
+      "text": "le",
+      "id": "le-3hmdo",
+      "kind": "silaba",
+      "rate": "-35%"
+    },
+    {
+      "text": "lé",
+      "id": "le-3hm9s",
+      "kind": "silaba",
+      "rate": "-35%"
+    },
+    {
+      "text": "Lee la frase en voz alta.",
+      "id": "lee-la-frase-en-voz-alta-1ohgk7t",
+      "kind": "frase",
+      "rate": "-14%"
+    },
+    {
+      "text": "Lee la frase.",
+      "id": "lee-la-frase-zz771l",
+      "kind": "frase",
+      "rate": "-14%"
+    },
+    {
+      "text": "Lee la palabra en voz alta.",
+      "id": "lee-la-palabra-en-voz-alta-o77fg7",
+      "kind": "frase",
+      "rate": "-14%"
+    },
+    {
+      "text": "Lee la palabra.",
+      "id": "lee-la-palabra-sab1xj",
+      "kind": "frase",
+      "rate": "-14%"
+    },
+    {
+      "text": "Leer conmigo",
+      "id": "leer-conmigo-1bdm5h1",
+      "kind": "frase",
+      "rate": "-14%"
+    },
+    {
+      "text": "len",
+      "id": "len-375ile",
+      "kind": "silaba",
+      "rate": "-35%"
+    },
+    {
+      "text": "lengua",
+      "id": "lengua-npmkq9",
+      "kind": "palabra",
+      "rate": "-18%"
+    },
+    {
+      "text": "Leo",
+      "id": "leo-376e83",
+      "kind": "palabra",
+      "rate": "-18%"
+    },
+    {
+      "text": "Leo solito",
+      "id": "leo-solito-f24un5",
+      "kind": "frase",
+      "rate": "-14%"
+    },
+    {
+      "text": "Leo un cuento.",
+      "id": "leo-un-cuento-19oyjlc",
+      "kind": "frase",
+      "rate": "-14%"
+    },
+    {
+      "text": "león",
+      "id": "leon-yiy3ld",
+      "kind": "palabra",
+      "rate": "-18%"
+    },
+    {
+      "text": "li",
+      "id": "li-3hmdc",
+      "kind": "silaba",
+      "rate": "-35%"
+    },
+    {
+      "text": "limón",
+      "id": "limon-2v42fk",
+      "kind": "palabra",
+      "rate": "-18%"
+    },
+    {
+      "text": "lla",
+      "id": "lla-375idg",
+      "kind": "silaba",
+      "rate": "-35%"
+    },
+    {
+      "text": "lle",
+      "id": "lle-375idc",
+      "kind": "silaba",
+      "rate": "-35%"
+    },
+    {
+      "text": "lli",
+      "id": "lli-375ido",
+      "kind": "silaba",
+      "rate": "-35%"
+    },
+    {
+      "text": "llo",
+      "id": "llo-375idm",
+      "kind": "silaba",
+      "rate": "-35%"
+    },
+    {
+      "text": "llu",
+      "id": "llu-375ids",
+      "kind": "silaba",
+      "rate": "-35%"
+    },
+    {
+      "text": "lo",
+      "id": "lo-3hmdi",
+      "kind": "silaba",
+      "rate": "-35%"
+    },
+    {
+      "text": "loj",
+      "id": "loj-375ics",
+      "kind": "silaba",
+      "rate": "-35%"
+    },
+    {
+      "text": "lu",
+      "id": "lu-3hme4",
+      "kind": "silaba",
+      "rate": "-35%"
+    },
+    {
+      "text": "luna",
+      "id": "luna-yiyd3n",
+      "kind": "palabra",
+      "rate": "-18%"
+    },
+    {
+      "text": "ma",
+      "id": "ma-3hmeh",
+      "kind": "silaba",
+      "rate": "-35%"
+    },
+    {
+      "text": "mamá",
+      "id": "mama-yiykzp",
+      "kind": "palabra",
+      "rate": "-18%"
+    },
+    {
+      "text": "man",
+      "id": "man-375j8n",
+      "kind": "silaba",
+      "rate": "-35%"
+    },
+    {
+      "text": "mano",
+      "id": "mano-yiyl0o",
+      "kind": "palabra",
+      "rate": "-18%"
+    },
+    {
+      "text": "manzana",
+      "id": "manzana-hmbl83",
+      "kind": "palabra",
+      "rate": "-18%"
+    },
+    {
+      "text": "mariposa",
+      "id": "mariposa-piaezj",
+      "kind": "palabra",
+      "rate": "-18%"
+    },
+    {
+      "text": "me",
+      "id": "me-3hmel",
+      "kind": "silaba",
+      "rate": "-35%"
+    },
+    {
+      "text": "mesa",
+      "id": "mesa-yiyopr",
+      "kind": "palabra",
+      "rate": "-18%"
+    },
+    {
+      "text": "mi",
+      "id": "mi-3hme9",
+      "kind": "silaba",
+      "rate": "-35%"
+    },
+    {
+      "text": "Mi",
+      "id": "mi-3hn5t",
+      "kind": "palabra",
+      "rate": "-18%"
+    },
+    {
+      "text": "Mi álbum",
+      "id": "mi-album-1uzlfa",
+      "kind": "frase",
+      "rate": "-14%"
+    },
+    {
+      "text": "Mi camino",
+      "id": "mi-camino-5qq2ti",
+      "kind": "frase",
+      "rate": "-14%"
+    },
+    {
+      "text": "Mi mamá me ama.",
+      "id": "mi-mama-me-ama-xg48bu",
+      "kind": "frase",
+      "rate": "-14%"
+    },
+    {
+      "text": "Mi osito duerme.",
+      "id": "mi-osito-duerme-1izuazz",
+      "kind": "frase",
+      "rate": "-14%"
+    },
+    {
+      "text": "Mi sesión de hoy",
+      "id": "mi-sesion-de-hoy-1199fzj",
+      "kind": "frase",
+      "rate": "-14%"
+    },
+    {
+      "text": "Mira bien y prueba de nuevo.",
+      "id": "mira-bien-y-prueba-de-nuevo-665cpe",
+      "kind": "frase",
+      "rate": "-14%"
+    },
+    {
+      "text": "mo",
+      "id": "mo-3hmef",
+      "kind": "silaba",
+      "rate": "-35%"
+    },
+    {
+      "text": "mochila",
+      "id": "mochila-iozg4o",
+      "kind": "palabra",
+      "rate": "-18%"
+    },
+    {
+      "text": "mon",
+      "id": "mon-375jah",
+      "kind": "silaba",
+      "rate": "-35%"
+    },
+    {
+      "text": "món",
+      "id": "mon-375gj9",
+      "kind": "silaba",
+      "rate": "-35%"
+    },
+    {
+      "text": "montaña",
+      "id": "montana-iwvkjw",
+      "kind": "palabra",
+      "rate": "-18%"
+    },
+    {
+      "text": "mu",
+      "id": "mu-3hmf1",
+      "kind": "silaba",
+      "rate": "-35%"
+    },
+    {
+      "text": "muñeca",
+      "id": "muneca-oo2jaj",
+      "kind": "palabra",
+      "rate": "-18%"
+    },
+    {
+      "text": "na",
+      "id": "na-3hmiy",
+      "kind": "silaba",
+      "rate": "-35%"
+    },
+    {
+      "text": "nada",
+      "id": "nada-yj2fnz",
+      "kind": "palabra",
+      "rate": "-18%"
+    },
+    {
+      "text": "naranja",
+      "id": "naranja-1hhm9zw",
+      "kind": "palabra",
+      "rate": "-18%"
+    },
+    {
+      "text": "nariz",
+      "id": "nariz-2zfmbv",
+      "kind": "palabra",
+      "rate": "-18%"
+    },
+    {
+      "text": "ne",
+      "id": "ne-3hmj2",
+      "kind": "silaba",
+      "rate": "-35%"
+    },
+    {
+      "text": "ni",
+      "id": "ni-3hmiq",
+      "kind": "silaba",
+      "rate": "-35%"
+    },
+    {
+      "text": "nieve",
+      "id": "nieve-2z9ayc",
+      "kind": "palabra",
+      "rate": "-18%"
+    },
+    {
+      "text": "no",
+      "id": "no-3hmis",
+      "kind": "silaba",
+      "rate": "-35%"
+    },
+    {
+      "text": "noche",
+      "id": "noche-2z7wdm",
+      "kind": "palabra",
+      "rate": "-18%"
+    },
+    {
+      "text": "nu",
+      "id": "nu-3hmji",
+      "kind": "silaba",
+      "rate": "-35%"
+    },
+    {
+      "text": "nube",
+      "id": "nube-yj2w7t",
+      "kind": "palabra",
+      "rate": "-18%"
+    },
+    {
+      "text": "ña",
+      "id": "na-3hjg5",
+      "kind": "silaba",
+      "rate": "-35%"
+    },
+    {
+      "text": "ñe",
+      "id": "ne-3hjg1",
+      "kind": "silaba",
+      "rate": "-35%"
+    },
+    {
+      "text": "ñi",
+      "id": "ni-3hjgd",
+      "kind": "silaba",
+      "rate": "-35%"
+    },
+    {
+      "text": "ño",
+      "id": "no-3hjgb",
+      "kind": "silaba",
+      "rate": "-35%"
+    },
+    {
+      "text": "ñu",
+      "id": "nu-3hjfl",
+      "kind": "silaba",
+      "rate": "-35%"
+    },
+    {
+      "text": "o",
+      "id": "o-3t1m",
+      "kind": "silaba",
+      "rate": "-35%"
+    },
+    {
+      "text": "ojo",
+      "id": "ojo-375nv3",
+      "kind": "palabra",
+      "rate": "-18%"
+    },
+    {
+      "text": "ón",
+      "id": "on-3hjlk",
+      "kind": "silaba",
+      "rate": "-35%"
+    },
+    {
+      "text": "oreja",
+      "id": "oreja-30ag9i",
+      "kind": "palabra",
+      "rate": "-18%"
+    },
+    {
+      "text": "osito",
+      "id": "osito-30fa7f",
+      "kind": "palabra",
+      "rate": "-18%"
+    },
+    {
+      "text": "oso",
+      "id": "oso-375omu",
+      "kind": "palabra",
+      "rate": "-18%"
+    },
+    {
+      "text": "oveja",
+      "id": "oveja-30dcgi",
+      "kind": "palabra",
+      "rate": "-18%"
+    },
+    {
+      "text": "pa",
+      "id": "pa-3hmok",
+      "kind": "silaba",
+      "rate": "-35%"
+    },
+    {
+      "text": "patinete",
+      "id": "patinete-k3fp77",
+      "kind": "palabra",
+      "rate": "-18%"
+    },
+    {
+      "text": "pato",
+      "id": "pato-yj74pb",
+      "kind": "palabra",
+      "rate": "-18%"
+    },
+    {
+      "text": "pe",
+      "id": "pe-3hmog",
+      "kind": "silaba",
+      "rate": "-35%"
+    },
+    {
+      "text": "pelo",
+      "id": "pelo-yj724z",
+      "kind": "palabra",
+      "rate": "-18%"
+    },
+    {
+      "text": "pelota",
+      "id": "pelota-vbykna",
+      "kind": "palabra",
+      "rate": "-18%"
+    },
+    {
+      "text": "pera",
+      "id": "pera-yj71kz",
+      "kind": "palabra",
+      "rate": "-18%"
+    },
+    {
+      "text": "pez",
+      "id": "pez-375sh6",
+      "kind": "palabra",
+      "rate": "-18%"
+    },
+    {
+      "text": "pi",
+      "id": "pi-3hmos",
+      "kind": "silaba",
+      "rate": "-35%"
+    },
+    {
+      "text": "piz",
+      "id": "piz-375srq",
+      "kind": "silaba",
+      "rate": "-35%"
+    },
+    {
+      "text": "pla",
+      "id": "pla-375sns",
+      "kind": "silaba",
+      "rate": "-35%"
+    },
+    {
+      "text": "playa",
+      "id": "playa-33t928",
+      "kind": "palabra",
+      "rate": "-18%"
+    },
+    {
+      "text": "po",
+      "id": "po-3hmoq",
+      "kind": "silaba",
+      "rate": "-35%"
+    },
+    {
+      "text": "pu",
+      "id": "pu-3hmo0",
+      "kind": "silaba",
+      "rate": "-35%"
+    },
+    {
+      "text": "puer",
+      "id": "puer-yj6oon",
+      "kind": "silaba",
+      "rate": "-35%"
+    },
+    {
+      "text": "puerta",
+      "id": "puerta-v0nn4y",
+      "kind": "palabra",
+      "rate": "-18%"
+    },
+    {
+      "text": "que",
+      "id": "que-375stg",
+      "kind": "silaba",
+      "rate": "-35%"
+    },
+    {
+      "text": "qui",
+      "id": "qui-375stk",
+      "kind": "silaba",
+      "rate": "-35%"
+    },
+    {
+      "text": "ra",
+      "id": "ra-3hmty",
+      "kind": "silaba",
+      "rate": "-35%"
+    },
+    {
+      "text": "ran",
+      "id": "ran-375xiw",
+      "kind": "silaba",
+      "rate": "-35%"
+    },
+    {
+      "text": "rana",
+      "id": "rana-yjbo9l",
+      "kind": "palabra",
+      "rate": "-18%"
+    },
+    {
+      "text": "ras",
+      "id": "ras-375xid",
+      "kind": "silaba",
+      "rate": "-35%"
+    },
+    {
+      "text": "ratón",
+      "id": "raton-37w1i7",
+      "kind": "palabra",
+      "rate": "-18%"
+    },
+    {
+      "text": "re",
+      "id": "re-3hmtu",
+      "kind": "silaba",
+      "rate": "-35%"
+    },
+    {
+      "text": "reloj",
+      "id": "reloj-37tli3",
+      "kind": "palabra",
+      "rate": "-18%"
+    },
+    {
+      "text": "Repaso inteligente",
+      "id": "repaso-inteligente-5l2l9t",
+      "kind": "frase",
+      "rate": "-14%"
+    },
+    {
+      "text": "ri",
+      "id": "ri-3hmu6",
+      "kind": "silaba",
+      "rate": "-35%"
+    },
+    {
+      "text": "rí",
+      "id": "ri-3hmqi",
+      "kind": "silaba",
+      "rate": "-35%"
+    },
+    {
+      "text": "ria",
+      "id": "ria-375xq7",
+      "kind": "silaba",
+      "rate": "-35%"
+    },
+    {
+      "text": "río",
+      "id": "rio-375ud1",
+      "kind": "palabra",
+      "rate": "-18%"
+    },
+    {
+      "text": "riz",
+      "id": "riz-375xpg",
+      "kind": "silaba",
+      "rate": "-35%"
+    },
+    {
+      "text": "ro",
+      "id": "ro-3hmu0",
+      "kind": "silaba",
+      "rate": "-35%"
+    },
+    {
+      "text": "robot",
+      "id": "robot-37uwxt",
+      "kind": "palabra",
+      "rate": "-18%"
+    },
+    {
+      "text": "rodilla",
+      "id": "rodilla-obp72s",
+      "kind": "palabra",
+      "rate": "-18%"
+    },
+    {
+      "text": "rosa",
+      "id": "rosa-yjbmga",
+      "kind": "palabra",
+      "rate": "-18%"
+    },
+    {
+      "text": "rra",
+      "id": "rra-375wxw",
+      "kind": "silaba",
+      "rate": "-35%"
+    },
+    {
+      "text": "ru",
+      "id": "ru-3hmte",
+      "kind": "silaba",
+      "rate": "-35%"
+    },
+    {
+      "text": "sa",
+      "id": "sa-3hmuv",
+      "kind": "silaba",
+      "rate": "-35%"
+    },
+    {
+      "text": "sale",
+      "id": "sale-yjccxq",
+      "kind": "palabra",
+      "rate": "-18%"
+    },
+    {
+      "text": "san",
+      "id": "san-375y9l",
+      "kind": "silaba",
+      "rate": "-35%"
+    },
+    {
+      "text": "sandía",
+      "id": "sandia-zs5v4h",
+      "kind": "palabra",
+      "rate": "-18%"
+    },
+    {
+      "text": "se",
+      "id": "se-3hmur",
+      "kind": "silaba",
+      "rate": "-35%"
+    },
+    {
+      "text": "si",
+      "id": "si-3hmv3",
+      "kind": "silaba",
+      "rate": "-35%"
+    },
+    {
+      "text": "Sílabas mágicas",
+      "id": "silabas-magicas-wcv7cl",
+      "kind": "frase",
+      "rate": "-14%"
+    },
+    {
+      "text": "silla",
+      "id": "silla-38orwe",
+      "kind": "palabra",
+      "rate": "-18%"
+    },
+    {
+      "text": "so",
+      "id": "so-3hmux",
+      "kind": "silaba",
+      "rate": "-35%"
+    },
+    {
+      "text": "sol",
+      "id": "sol-375yet",
+      "kind": "palabra",
+      "rate": "-18%"
+    },
+    {
+      "text": "sopa",
+      "id": "sopa-yjchd4",
+      "kind": "palabra",
+      "rate": "-18%"
+    },
+    {
+      "text": "su",
+      "id": "su-3hmub",
+      "kind": "silaba",
+      "rate": "-35%"
+    },
+    {
+      "text": "sucia",
+      "id": "sucia-383dag",
+      "kind": "palabra",
+      "rate": "-18%"
+    },
+    {
+      "text": "ta",
+      "id": "ta-3hmkw",
+      "kind": "silaba",
+      "rate": "-35%"
+    },
+    {
+      "text": "tam",
+      "id": "tam-375p8d",
+      "kind": "silaba",
+      "rate": "-35%"
+    },
+    {
+      "text": "tambor",
+      "id": "tambor-stqkle",
+      "kind": "palabra",
+      "rate": "-18%"
+    },
+    {
+      "text": "te",
+      "id": "te-3hml0",
+      "kind": "silaba",
+      "rate": "-35%"
+    },
+    {
+      "text": "teléfono",
+      "id": "telefono-3447q1",
+      "kind": "palabra",
+      "rate": "-18%"
+    },
+    {
+      "text": "ti",
+      "id": "ti-3hml4",
+      "kind": "silaba",
+      "rate": "-35%"
+    },
+    {
+      "text": "tijeras",
+      "id": "tijeras-wmm16f",
+      "kind": "palabra",
+      "rate": "-18%"
+    },
+    {
+      "text": "to",
+      "id": "to-3hmla",
+      "kind": "silaba",
+      "rate": "-35%"
+    },
+    {
+      "text": "Toca el altavoz para escuchar.",
+      "id": "toca-el-altavoz-para-escuchar-crb2pm",
+      "kind": "frase",
+      "rate": "-14%"
+    },
+    {
+      "text": "Toca las sílabas en orden para formar la palabra.",
+      "id": "toca-las-silabas-en-orden-para-formar-la-p-1kdcto1",
+      "kind": "frase",
+      "rate": "-14%"
+    },
+    {
+      "text": "Toca una vocal para escucharla.",
+      "id": "toca-una-vocal-para-escucharla-vhevag",
+      "kind": "frase",
+      "rate": "-14%"
+    },
+    {
+      "text": "Toca una vocal y escucha la sílaba.",
+      "id": "toca-una-vocal-y-escucha-la-silaba-h51w5t",
+      "kind": "frase",
+      "rate": "-14%"
+    },
+    {
+      "text": "toma",
+      "id": "toma-yj4anm",
+      "kind": "palabra",
+      "rate": "-18%"
+    },
+    {
+      "text": "tón",
+      "id": "ton-375lik",
+      "kind": "silaba",
+      "rate": "-35%"
+    },
+    {
+      "text": "tor",
+      "id": "tor-375pgs",
+      "kind": "silaba",
+      "rate": "-35%"
+    },
+    {
+      "text": "torta",
+      "id": "torta-314ou1",
+      "kind": "palabra",
+      "rate": "-18%"
+    },
+    {
+      "text": "tortuga",
+      "id": "tortuga-xroeff",
+      "kind": "palabra",
+      "rate": "-18%"
+    },
+    {
+      "text": "tre",
+      "id": "tre-375oqu",
+      "kind": "silaba",
+      "rate": "-35%"
+    },
+    {
+      "text": "tu",
+      "id": "tu-3hmkk",
+      "kind": "silaba",
+      "rate": "-35%"
+    },
+    {
+      "text": "u",
+      "id": "u-3t1s",
+      "kind": "silaba",
+      "rate": "-35%"
+    },
+    {
+      "text": "un",
+      "id": "un-3hmm6",
+      "kind": "palabra",
+      "rate": "-18%"
+    },
+    {
+      "text": "una",
+      "id": "una-375q8v",
+      "kind": "palabra",
+      "rate": "-18%"
+    },
+    {
+      "text": "uva",
+      "id": "uva-375pmv",
+      "kind": "palabra",
+      "rate": "-18%"
+    },
+    {
+      "text": "uve",
+      "id": "uve-375pmr",
+      "kind": "frase",
+      "rate": "-14%"
+    },
+    {
+      "text": "va",
+      "id": "va-3hmqa",
+      "kind": "silaba",
+      "rate": "-35%"
+    },
+    {
+      "text": "Vamos a leer juntos.",
+      "id": "vamos-a-leer-juntos-nf4kiz",
+      "kind": "frase",
+      "rate": "-14%"
+    },
+    {
+      "text": "Vamos a repasar lo que necesita práctica.",
+      "id": "vamos-a-repasar-lo-que-necesita-practica-r23991",
+      "kind": "frase",
+      "rate": "-14%"
+    },
+    {
+      "text": "Vamos a repasar los sonidos que necesitan práctica.",
+      "id": "vamos-a-repasar-los-sonidos-que-necesitan--1oxchmz",
+      "kind": "frase",
+      "rate": "-14%"
+    },
+    {
+      "text": "ve",
+      "id": "ve-3hmqe",
+      "kind": "silaba",
+      "rate": "-35%"
+    },
+    {
+      "text": "ven",
+      "id": "ven-375u9k",
+      "kind": "silaba",
+      "rate": "-35%"
+    },
+    {
+      "text": "ventana",
+      "id": "ventana-dm115u",
+      "kind": "palabra",
+      "rate": "-18%"
+    },
+    {
+      "text": "veo",
+      "id": "veo-375u9l",
+      "kind": "palabra",
+      "rate": "-18%"
+    },
+    {
+      "text": "vi",
+      "id": "vi-3hmqi",
+      "kind": "silaba",
+      "rate": "-35%"
+    },
+    {
+      "text": "vión",
+      "id": "vion-yj8oh3",
+      "kind": "silaba",
+      "rate": "-35%"
+    },
+    {
+      "text": "vo",
+      "id": "vo-3hmqk",
+      "kind": "silaba",
+      "rate": "-35%"
+    },
+    {
+      "text": "vu",
+      "id": "vu-3hmpy",
+      "kind": "silaba",
+      "rate": "-35%"
+    },
+    {
+      "text": "vuela",
+      "id": "vuela-34tdym",
+      "kind": "palabra",
+      "rate": "-18%"
+    },
+    {
+      "text": "ya",
+      "id": "ya-3hmwt",
+      "kind": "silaba",
+      "rate": "-35%"
+    },
+    {
+      "text": "ye",
+      "id": "ye-3hmwp",
+      "kind": "silaba",
+      "rate": "-35%"
+    },
+    {
+      "text": "yi",
+      "id": "yi-3hmwl",
+      "kind": "silaba",
+      "rate": "-35%"
+    },
+    {
+      "text": "yo",
+      "id": "yo-3hmwj",
+      "kind": "silaba",
+      "rate": "-35%"
+    },
+    {
+      "text": "Yo",
+      "id": "yo-3hno3",
+      "kind": "palabra",
+      "rate": "-18%"
+    },
+    {
+      "text": "Yo veo una estrella.",
+      "id": "yo-veo-una-estrella-1rw8d9r",
+      "kind": "frase",
+      "rate": "-14%"
+    },
+    {
+      "text": "yu",
+      "id": "yu-3hmw9",
+      "kind": "silaba",
+      "rate": "-35%"
+    },
+    {
+      "text": "za",
+      "id": "za-3hn1a",
+      "kind": "silaba",
+      "rate": "-35%"
+    },
+    {
+      "text": "zanahoria",
+      "id": "zanahoria-1h49824",
+      "kind": "palabra",
+      "rate": "-18%"
+    },
+    {
+      "text": "ze",
+      "id": "ze-3hn16",
+      "kind": "silaba",
+      "rate": "-35%"
+    },
+    {
+      "text": "zeta",
+      "id": "zeta-yjhqhb",
+      "kind": "frase",
+      "rate": "-14%"
+    },
+    {
+      "text": "zi",
+      "id": "zi-3hn12",
+      "kind": "silaba",
+      "rate": "-35%"
+    },
+    {
+      "text": "zo",
+      "id": "zo-3hn0w",
+      "kind": "silaba",
+      "rate": "-35%"
+    },
+    {
+      "text": "zu",
+      "id": "zu-3hn0q",
+      "kind": "silaba",
+      "rate": "-35%"
+    }
+  ]
+}

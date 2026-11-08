@@ -1,0 +1,11 @@
+# Certificados locales: la clave privada nunca debe publicarse
+certs/
+
+# Archivos del sistema
+.DS_Store
+._*
+**/._*
+
+# Entornos y temporales
+.venv*/
+*.tmp.mp3
